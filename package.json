@@ -1,0 +1,32 @@
+{
+  "name": "gilded-rose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+      "lint": "eslint .",
+      "test": "jest",
+      "testAll": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomMannion/gilded-rose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomMannion/gilded-rose/issues"
+  },
+  "homepage": "https://github.com/TomMannion/gilded-rose#readme",
+  "devDependencies": {
+    "jest": "^29.2.1",
+    "eslint": "^8.10.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-jest": "^22.21.0",
+    "eslint-plugin-node": "^10.0.0"
+  }
+}
