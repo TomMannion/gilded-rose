@@ -20,13 +20,11 @@ itemInterface.addItem(gildedRose.items, backstagePass);
 itemInterface.addItem(gildedRose.items, genericItem);
 itemInterface.addItem(gildedRose.items, conjuredItem);
 
-// Update the items
-
+// Update the items 10 times
 for (let i = 0; i < 10; i++) {
   console.log(`Day ${i + 1}`);
   gildedRose.updateQuality();
-  //console.log(gildedRose.updateQuality());
 }
 
 // Print the items
-console.log(format.inventory(gildedRose.items));
+gildedRose.printInventory(format);

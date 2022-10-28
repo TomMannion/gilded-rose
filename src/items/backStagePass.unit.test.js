@@ -1,4 +1,4 @@
-const BackStagePass = require("./backStagePass");
+const BackStagePass = require("./backstagePass");
 
 describe("BackStagePass", () => {
   it("should reduce the sellIn by 1", () => {

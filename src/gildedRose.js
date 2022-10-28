@@ -11,6 +11,10 @@ class GildedRose {
     }
     return this.items;
   }
+
+  printInventory(format) {
+    console.log(format.inventory(this.items));
+  }
 }
 
 module.exports = GildedRose;

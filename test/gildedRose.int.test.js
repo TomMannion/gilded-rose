@@ -7,7 +7,6 @@ describe("Gilded Rose", () => {
     const itemInterface = new ItemInterface();
     let bread = itemInterface.createItem("bread", 3, 5);
     itemInterface.addItem(gildedRose.items, bread);
-    console.log(gildedRose.items);
     gildedRose.updateQuality();
     expect(gildedRose.items[0].quality).toEqual(4);
     expect(gildedRose.items[0].sellIn).toEqual(2);
